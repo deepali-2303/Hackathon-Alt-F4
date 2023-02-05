@@ -1,0 +1,29 @@
+#title {
+    text-align: center;
+}
+
+#clist {
+    display: flex;
+}
+
+table {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+th,
+td {
+    padding: 20px;
+}   
+
+.buy
+{
+    text-decoration: none;
+    
+}
+
+.btn
+{
+    margin-right: 50px;
+}

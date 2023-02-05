@@ -1,0 +1,194 @@
+h1 {
+    margin: 5% 0;
+    width: 85%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #3D1766;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+hr {
+    margin: 0 auto;
+    border-style: none;
+    border: 3px solid;
+    border-bottom: #000;
+}
+
+label {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #567189;
+    font-size: large;
+}
+
+input {
+    margin-left: 20px;
+}
+
+#section-1 {
+    padding: 2% 5%;
+    background-color: #F9F9F9;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    color: #1181C8;
+    font-size: 2.2rem;
+    font-family: 'Solitreo', cursive;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin: auto 30px auto auto;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #645CBB;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #DDDDDD;
+}
+
+.loginData {
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 2px solid #645CBB;
+    background-color: #E5E0FF;
+}
+
+input[type="email" i],
+input[type="password" i] {
+    padding: 1px 6px;
+}
+
+.email-input {
+    margin-left: 55px;
+}
+
+.passTog {
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.home-btn {
+    margin-left: 20%;
+   
+}
+.submit-btn{
+    width: 60%;
+}
+
+.or {
+    margin-left: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.newLogin {
+    margin: 1% 0;
+    margin-left: 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.fa-google {
+    margin-right: 10px;
+}
+
+.home-img {
+    width: 95%;
+    border-radius: 50px;
+    padding: 5%;
+}
+
+#section-2 {
+    padding: 2% 5%;
+    background-color: #fff;
+}
+
+.infoimg {
+    width: 95%;
+    border-radius: 50px;
+    padding: 5%;
+}
+
+.info {
+    text-align: center;
+    width: 85%;
+    padding: 15% 7%;
+    margin: 0 auto;
+}
+
+#section-3 {
+    padding: 2% 5%;
+    background-color: #F9F9F9;
+}
+
+.footer {
+    padding-top: 30px;
+    min-height: 300px;
+}
+
+.footer-head {
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.contact-list {
+    float: left;
+}
+
+
+.contact-icon {
+    padding: 7px 10px;
+}
+
+.icon-name {
+    padding-left: 15px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    color: black;
+}
+
+.icon-tag {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-tag:hover {
+    color: #567189;
+}
+
+.header-name,
+.copyright {
+    text-align: right;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+}

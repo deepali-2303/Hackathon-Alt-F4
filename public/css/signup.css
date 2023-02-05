@@ -1,0 +1,42 @@
+
+
+h1 {
+    margin: 0 auto;
+    color: #1181C8;
+    font-size: 2.4rem;
+    font-family: 'Solitreo', cursive;
+    font-weight: bold;
+}
+
+p {
+    margin: 2% auto;
+}
+
+.signup-form {
+    margin: 2% auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    width: 550px;
+}
+
+.signupData {
+    width: 85%;
+}
+
+.signup-text {
+    font-size: small;
+}
+
+.btn {
+    width: 85%;
+}
+
+.or {
+    width: 20px;
+    margin: 2% auto;
+}
+
+.fa-google {
+    margin-right: 10px;
+}

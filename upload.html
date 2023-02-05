@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@400;700&family=Solitreo&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/8e9355e0d6.js" crossorigin="anonymous"></script>
+  <script src="customerSignUp.js"></script>
+
+  <link rel="stylesheet" href="/css/certificate.css">
+
+  <!-- <link rel="stylesheet" href="mohit/homeUser.css"> -->
+  <link rel="stylesheet" href="/css/index.css">
+
+
+
+</head>
+
+<body style="font-family: 'Noto Serif', serif">
+  <div id="head">
+    <h1 class="head-name">EffSpace</h1>
+    <form action="" method="post" class="d-flex searchbox">
+      <input class="form-control me-2 searchbar" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-success searchbtn" type="submit">Search</button>
+    </form>
+    <!-- <a class="call" href="">Call 1800-1691 </a>
+    <a class="user" href="">User Login</a>
+    <a class="ca" href="">CA Login</a> -->
+  </div>
+  <hr id="hrline">
+  <div id="navigation">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Support
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Certifying Authorities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Tracking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container1">
+    <div class="content">
+      <div class="certName">
+        <h1 style="color: #187498; font-weight: bold; margin-top: 15px;">
+          An EV UCC Certificate
+          
+        </h1>
+      </div>
+      <div class="about">
+        <p>
+          <h3>Please select a duration to begin your certificate order.</h3>
+
+          <h4>An EV UCC Certificate can:</h4>
+          &#8594; Secure up to 500 entries (first 3 non-wildcard entries are free, additional charge per entry after the 3rd entry)
+          <br>
+          &#8594; Be used on unlimited servers concurrently
+          <br>
+          &#8594; Have its entries changed at anytime or may be specified later without fees or costs
+          <br>
+          &#8594; Have entries that are a Fully Qualified Domain Name (Example: SSL.com) (FQDN)
+          <br>
+          &#8594; Be used on unlimited IP addresses with multiple, concurrent private keys (great for hosting and virtual hosts)
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="form">
+      <form action="/upload" method="post">
+        <div class="form-items">
+          <div class="form-check for">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              $540  ~ 9 Months
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              $600  ~ 1 Year
+            </label>
+          </div>
+          <div class="mb-3 docs" >
+            <!-- <label for="formFile" class="form-label"></label> -->
+            <input class="form-control" style="width: auto;" type="file" id="formFile">
+          </div>
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="landing.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/* here starts */
+
+.listContainer{
+  
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin: auto;
+  margin-top: 50px;
+  
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  background-color: #f8fdff;
+  /* margin: 50px; */
+}
+.pending-container .approved-container{
+  
+  margin-left: 100px;
+  padding: 5px;
+  justify-self: center;
+}
+
+

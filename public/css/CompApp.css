@@ -1,0 +1,43 @@
+.space{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: -10px -10px 25px lightgrey ,10px 10px 25px lightgrey;
+  margin: auto;
+  margin-top: 50px;
+  
+  padding: 20px;
+  
+  width: 1037px;
+  height: auto;
+  background-color: #f8fdff;
+  margin-bottom: 50px;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.buttons{
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 2px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.approve-btn .reject-btn{
+  margin-right: 50px;
+}
+.name{
+  margin-bottom: 30px;
+}
+.Documents-data{
+  padding-left: 8px;
+  text-decoration: none;
+  color: black;
+}
+
